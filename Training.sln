@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayWithCitiesWordsLine", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thinks", "Thinks\Thinks.csproj", "{EF9D8A9A-9427-48AA-830D-946B3D9645E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "372KodiraneDekodirane", "372KodiraneDekodirane\372KodiraneDekodirane.csproj", "{0338FC3B-639C-4944-87BC-C5EC511CD9A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +105,10 @@ Global
 		{EF9D8A9A-9427-48AA-830D-946B3D9645E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF9D8A9A-9427-48AA-830D-946B3D9645E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF9D8A9A-9427-48AA-830D-946B3D9645E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0338FC3B-639C-4944-87BC-C5EC511CD9A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0338FC3B-639C-4944-87BC-C5EC511CD9A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0338FC3B-639C-4944-87BC-C5EC511CD9A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0338FC3B-639C-4944-87BC-C5EC511CD9A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,24 +12,21 @@ namespace Trys
         {
             Console.InputEncoding = Encoding.UTF8;
             Console.OutputEncoding = Encoding.UTF8;
-            string[] a = new string[] { "Ивайловград", "София", "Пловдив", "Асеновград",
-            "Шумен", "Градешница", "Варна", "Бургас", "Силистра", "Русе", "Хасково", "Созопол", "Попово" };
-            for (int i = 0; i < a.Length-1; i++)
-            {
-                for (int s = i+1; s < a.Length; s++)
-                {
-                    if (a[i].CompareTo(a[s]) > 0)
-                    {
-                        string p = a[i];
-                        a[i] = a[s];
-                        a[s] = p;
-                    }
-                }
-            }
-            for (int i = 0; i < a.Length; i++)
-            {
-                Console.WriteLine(a[i]);
-            }
+            //int kod = 97;
+            //char let = (char)kod;
+            //Console.WriteLine(let);
+            char str = 'Т';
+            Console.WriteLine(str);
+            int kod = (int)str;
+            Console.WriteLine(kod);
+            Random rand = new Random();
+            int newkod = kod + rand.Next(-5, 5);
+            Console.WriteLine(newkod);
+            char novstr = (char)newkod;
+            Console.WriteLine(novstr);
+            
+            
+
             //int a = (char)'Я';
             //Console.WriteLine(a);
         }
